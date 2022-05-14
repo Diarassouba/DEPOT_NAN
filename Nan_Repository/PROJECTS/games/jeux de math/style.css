@@ -1,0 +1,121 @@
+body, * {
+	margin: 0;
+	padding: 0;
+}
+/* 
+#parent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: aquamarine;
+	width: 500px;
+	height: 300px;
+	z-index: 0;
+}
+
+
+#calc {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+}
+#nl, #op, #nr
+{
+	font-size: 25px;
+}
+#loading-bar {
+	position: absolute;
+	background-color: grey;
+	border-radius: 1rem;
+	left: 50%;
+	top: 30px;
+	height: 10px;
+	width: 400px;
+	overflow: hidden;
+	transform: translate(-50%);
+}
+
+#progress
+{
+	width: 100%;
+	height: 100%;
+	background-color: lime;
+	/* border-radius: 1rem; */
+
+/* }
+input
+{
+	width: 100px;
+}
+
+#level-div
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+#found-div
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.show-level
+{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 1;
+	overflow-x: hidden;
+}
+
+#fils
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	font-size: 50px;
+	transform: translate(50%);
+	position: absolute;
+	top: 50%;
+	/* left: 50%; */
+	/* width: 30%;
+	height: 100px;
+	right: -150%;
+}
+
+.anim-level 
+{
+	animation: animate 5s 0s ease-in-out backwards;
+}
+
+@keyframes animate{
+	0% 
+	{
+		 right: -150%;
+	}
+
+	50%
+	{
+		right: 50%;
+	}
+
+	65%
+	{
+		right: 50%;
+	}
+	
+	100%
+	{
+		right: 150%;
+	}
+} */
+
