@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #3fc8c8;
+}
+#container
+{
+    display: flex;
+    
+}
+
+
+.button
+{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 20% 0px;
+}
+.button button
+{
+    width: 100%;
+    height: 50%;
+}
+.inscrition
+{
+    width: 500px;
+    height: 600px;
+    background-color:#5c9aa3 ;
+    text-align: center;
+    line-height: 2.4;
+    color:black;
+    border-radius: 6px;
+    display: none;
+    margin: 10% auto;
+
+        
+    
+}
+.inscrition input 
+{
+    
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.inscrition button
+{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #3fc8c8;
+    border: 1px solid #3fc8c8;
+
+    color: white;
+
+   
+}
+
+.connexion
+{
+    width: 500px;
+    height: 300px;
+    background-color:#5c9aa3 ;
+    text-align: center;
+    display: block ;
+    margin: 13% auto;
+}
+.connexion input
+{
+   
+    width: 80%;
+    height: 50px;
+}
+.connexion button
+{
+    width: 80%;
+    height: 50px;
+    background-color: #3fc8c8;
+    color: white;
+
+    border: 1px solid #3fc8c8;
+}
