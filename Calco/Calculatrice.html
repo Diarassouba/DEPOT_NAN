@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calco.css">
+</head>
+<body>
+    <div id="Calco">
+        <div id="ecran">
+            <input id="out" >
+        </div>
+        <div id="touches">
+           <div id="fonction">
+                <button class="acos">X^Y</button>
+                <button onclick="puis2()" class="atang">X^2</button>
+                <button onclick=" abs()" class="asini">|X|</button>
+                <button >Ln</button>
+                <button onclick="log()">Log</button>
+                <button onclick="sin()" class="hsinh">Sin </button>
+                <button onclick="cos()" class="hcosH">Cos</button>
+                <button onclick="tan()" class="htanh">tan</button>
+                <button onclick="sqrt()" class="racine">√x</button>
+                <button >Expo</button>
+                <button >On</button>
+                <button id="second">2nd</button>
+                
+           </div>
+
+           <div id="numero">    
+                <div class="demo">
+                    <button onclick="afficher(1)">1</button>
+                    <button onclick="afficher(2)">2</button>
+                    <button onclick="afficher(3)">3</button>
+                    <button onclick="afficher(4)">4</button>
+                    <button onclick="afficher(5)">5</button>
+                    <button onclick="afficher(6)">6 </button>
+                    <button onclick="afficher(7)">7</button>
+                    <button onclick="afficher(8)">8</button>
+                    <button onclick="afficher(9)">9</button>
+                    <button onclick="afficher(0)">0</button>
+                    <button onclick="afficher('.')">.</button>
+                    <button>(</button>
+                </div>
+                <div class="font">
+                    
+                    <button onclick="DEL()">DEL</button>
+                    <button onclick="AC()">AC</button>
+                    <button onclick="afficher('*')">*</button>
+                    <button onclick="afficher('/')">/</button>
+                    <button onclick="afficher('+')">+</button>
+                    <button onclick="afficher('-')">-</button>
+                    <button>)</button>
+                    <button onclick="result()">=</button>
+                
+                </div>
+           </div>
+
+    </div>
+    <script src="calco.js"></script>
+</body>
+</html>
