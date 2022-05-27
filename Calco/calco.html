@@ -8,57 +8,77 @@
     <link rel="stylesheet" href="calco.css">
 </head>
 <body>
+    
     <div id="Calco">
         <div id="ecran">
-            <input type="text" name="" id="out" placeholder="0">
+            <input id="output" >
         </div>
         <div id="touches">
            <div id="fonction">
-                <button>X^Y</button>
-                <button>X^2</button>
-                <button>|X|</button>
-                <button>Ln</button>
-                <button>Log</button>
-                <button>Sin</button>
-                <button>Cos</button>
-                <button>tan</button>
-                <button>√x</button>
-                <button>Expo</button>
-                <button>On</button>
-                <button>2nd</button>
-                
+                <button onclick="">X^Y</button>
+                <button onclick="puissance()">X<sup>3</sup></button>
+                <button onclick="absolue()">|X|</button>
+                <button onclick="ln()">Ln</button>
+                <button onclick="log()">Log</button>
+                <button onclick="sin()">Sin</button>
+                <button onclick="cos()">Cos</button>
+                <button onclick="tan()">tan</button>
+                <button onclick="racine()">√x</button>
+                <button onclick="exp()">Expo</button>
+                <button onclick="">On</button>
+                <button id="second">2nd</button>
            </div>
+           <div id="fonction2">
+            <button onclick="atan()">atan</button>
+            <button onclick="asin()">asin</button>
+            <button onclick="asin()">acos</button>
+            <button onclick="pi()">Pi</button>
+            <button onclick="sinh()">sinh</button>
+            <button onclick="cosh()">cosh</button>
+            <button onclick="tanh()">tanh</button>
+            <button onclick="puis3()">x<sup>3</sup></button>
+            <button onclick="puis4()">x<sup>4</sup></button>
+            <button onclick="e()">e</button>
+            <button onclick="">Off</button>
+            <button id="premier">1rd</button>
+            
+       </div>
 
-           <div id="numero">    
+           
+           
+
+           <div id="numero">
                 <div class="demo">
-                    <button  onclick="act(1)">1</button>
-                    <button onclick="act(2)">2</button>
-                    <button onclick="act(3)">3</button>
-                    <button onclick="act(4)">4</button>
-                    <button onclick="act(5)">5</button>
-                    <button onclick="act(6)">6 </button>
-                    <button onclick="act(7)">7</button>
-                    <button onclick="act(8)">8</button>
-                    <button onclick="act(9)">9</button>
-                    <button onclick="act(0)">0</button>
-                    <button>.</button>
+                    <button onclick="afficher(1)">1</button>
+                    <button onclick="afficher(2)">2</button>
+                    <button onclick="afficher(3)">3</button>
+                    <button onclick="afficher(4)">4</button>
+                    <button onclick="afficher(5)">5</button>
+                    <button onclick="afficher(6)">6 </button>
+                    <button onclick="afficher(7)">7</button>
+                    <button onclick="afficher(8)">8</button>
+                    <button onclick="afficher(9)">9</button>
+                    <button onclick="afficher(0)">0</button>
+                    <button onclick="afficher('.')">.</button>
                     <button>(</button>
                 </div>
                 <div class="font">
                     
-                    <button>DEL</button>
-                    <button>AC</button>
-                    <button onclick="act('*')">*</button>
-                    <button onclick="act('/')">/</button>
-                    <button onclick="act('+')">+</button>
-                    <button onclick="act('-')">-</button>
+                    <button onclick="eff()"
+                    >DEL</button>
+                    <button onclick="eff1()">AC</button>
+                    <button onclick="afficher('*')">*</button>
+                    <button onclick="afficher('/')">/</button>
+                    <button onclick="afficher('+')">+</button>
+                    <button onclick="afficher('-')">-</button>
                     <button >)</button>
-                    <button >=</button>
+                    <button onclick="egal()">=</button>
                 
                 </div>
            </div>
 
-    </div>
-    <script src="calco.html"></script>
+        </div>
+    </div> -->
+    <script src="calco.js"></script>
 </body>
 </html>

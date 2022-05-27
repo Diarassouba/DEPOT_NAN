@@ -35,6 +35,7 @@ body
 {
     width: 100%;
     height: 100%;
+    font-size: 40px;
 }
 #touches
 {
@@ -52,6 +53,23 @@ body
 }
 #fonction button
 {
+    margin: 1px;
+    width:47.5px;
+    height: 30px;
+    
+}
+#fonction2
+{
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    padding: 0 1px;
+    display: none;
+}
+#fonction2 button
+{
+    
+    
     margin: 1px;
     width:47.5px;
     height: 30px;
