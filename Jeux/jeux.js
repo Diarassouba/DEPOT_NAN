@@ -22,6 +22,9 @@ fetch("./jeux.json")
             {
 
                 if (indexdepart<9) {
+                    
+                }else{
+
                     time -= 1;
                     count.innerHTML = time;
         
@@ -29,11 +32,6 @@ fetch("./jeux.json")
                         time = 10
                         nextQuestions()
                     }
-
-                }
-                else{
-
-                   
                 
                 } 
             }
@@ -47,12 +45,12 @@ fetch("./jeux.json")
             gestdequetion()
             if (indexdepart<10) {
                 clearInterval(setInterval(temps,1000))
-            }
+            } 
             
         }
         function gestdequetion()
         {
-                if (indexdepart<9) {
+                if (indexdepart<=9) {
                     for(let i = indexdepart; i<= indexdepart+2; i++ )
                     {
                         bloc1.innerHTML +=` <div id="quest1" class='question'>
@@ -69,6 +67,7 @@ fetch("./jeux.json")
                 }else{
                     bloc1.innerHTML +=` <h2>Resultat</h2>`
                     count.innerHTML = 0;
+                    clearInterval()
                     console.log("fin")
                 }
                 
