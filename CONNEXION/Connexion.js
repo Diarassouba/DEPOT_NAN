@@ -1,5 +1,6 @@
 let MyDiv= document.getElementById("MyDiv");
 let Div= document.getElementById("Div");
+console.log(MyDiv);
 
 let connect= document.querySelector("#Cconnet")
 let inscrip= document.querySelector("#inscrip")
