@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "Example Questionnaire",
   "questions":[ 
@@ -104,4 +105,108 @@
           ]
         }
  ]
+=======
+{
+  "name": "Example Questionnaire",
+  "questions":[ 
+
+        {
+        "id": "quest1",
+        "text": "comment augmenter la taille d'un texte",
+        "type": "multi-select",
+        "options": [
+
+          "font-size",
+          "fontFont",
+          "family"
+        ]
+      },
+      {
+        "id": "quest2",
+        "text": "comment changer la couleur de fond d'une DIV",
+        "type": "multi-select",
+        "options":[
+          
+          "font-size",
+          "fontFont",
+          "family"
+        ]
+        
+      },
+      {
+        "id": "quest3",
+        "text": "comment changer la couleur de fond d'une DIV2",
+        "type": "multi-select",
+        "options": [
+          "JavaScript",
+          "Java",
+          "C"
+        ]
+        
+      }
+    ,
+          {
+          "id": "quest4",
+          "text": "comment changer la couleur d'un text ",
+          "type": "multi-select",
+          "options": [
+            "margin",
+            "color",
+            "padding"
+          ]
+        },
+        {
+          "id": "quest5",
+          "text": "comment centrer une DIV",
+          "type": "multi-select",
+          "options": [
+            "padding : 0 auto;",
+            "margin : 0 auto;",
+            "margin"
+          ]
+        },
+        {
+          "id": "quest6",
+          "text": "comment cacher une div",
+          "type": "multi-select",
+          "options": [
+            "display: none;",
+            "text-decoration:none;",
+            "colums"
+          ]
+        }
+           ,
+         
+        {
+          "id": "quest7",
+          "text": "Comment enlever le trait de soulignement d'un lien par defaut",
+          "type": "multi-select",
+          "options": [
+            "JavaScript",
+            "text-align:none",
+            "text-decoration:none;"
+          ]
+        },
+        {
+          "id": "quest8",
+          "text": "Que signifie IP en reseau",
+          "type": "multi-select",
+          "options": [
+            "Internet protocol",
+            "Important person",
+            "intressant person"
+          ]
+        },
+        {
+          "id": "quest9",
+          "text": "Qui est le premier president de la côte d'ivoire",
+          "type": "multi-select",
+          "options":[
+            "Hkb",
+            "FHB",
+            "Ado"
+          ]
+        }
+ ]
+>>>>>>> 8aac0c8fd006e2ea5da338d9065eb9f1b1ae9c9b
  }
