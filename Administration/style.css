@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: lightslategrey;
+}
+.message h3
+{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 2px 2px 9px lightblue;
+    
+    font-family: monospace;
+}
+.message
+{
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.ecran
+{
+    width: 100%;
+    height: 80%;
+    background-color: lightgrey;
+}
+
+.clavier
+{
+    width: 100%;
+    height: 20%;
+}
+.clavier input
+{
+    width: 75%;
+    height: 100%;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.clavier button
+{
+    width: 20%;
+    height: 50%;
+    margin: 4px;
+    font-family: monospace;
+}
