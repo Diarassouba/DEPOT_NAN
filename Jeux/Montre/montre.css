@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div
+{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 3px solid blanchedalmond;
+    box-shadow: 2px 2px 25px black;
+    background-image: linear-gradient(to top,
+    #667eea 0%, #4ba293 100%)
+}
+=======
 *
 {
     margin: 0;
@@ -13,3 +32,4 @@ div
     border: 3px solid blanchedalmond;
     box-shadow: 2px 2px 25px black;
 }
+>>>>>>> 8aac0c8fd006e2ea5da338d9065eb9f1b1ae9c9b
