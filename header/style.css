@@ -19,7 +19,9 @@ header
     justify-content: space-around;
 
 }
-#unique, #unique1, #unique2, #unique3, #unique4, #unique5,#unique7,#unique8,#unique9,#unique10,#unique11
+/*, #unique1, #unique2, #unique3, #unique4, #unique5,#unique7,#unique8,#unique9,#unique10,#unique11*/
+
+#unique
 {
     width: 300px;
     height: 1800px;
@@ -27,11 +29,12 @@ header
     width: 300px;
     height: 210px;
     border-radius: 10px;
+    transition: transform 200ms ease;
 }
-
-#mage, #mage1, #mage2, #mage3, #mage4, #mage5,#mage7,#mage8,#mage9,#mage10,#mage11
+/*, #mage1, #mage2, #mage3, #mage4, #mage5,#mage7,#mage8,#mage9,#mage10,#mage11 */
+#unique:hover img
 {
-    transform: scale(1);
+    transform: scale(1.5);
     width: 100%;
     height: 100%;
     border-radius: 10px;

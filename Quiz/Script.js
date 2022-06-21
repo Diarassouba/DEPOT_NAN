@@ -9,7 +9,7 @@ const toutesLesResultats = document.querySelectorAll('.Question')
 let count = document.querySelector('#count')
 let temps = 10
 let verifTableau = [];  //Le tableau Verifcateur
- let stocke = []
+let stocke = []
  console.log(stocke)       
 
 
@@ -33,11 +33,7 @@ form.addEventListener('submit',(e)=>
      console.log(tabResultas)
      verifunct(tabResultas); // la fonction verifateur de reponse // Cette fonction aura pour but de comparer les reponses choisir à celles des bonnes reponses
      tabResultas = [];
-
-     
-    
-      
-       
+  
 })
 
 function verifunct(ArrResultas) // Parametres de Verifcation

@@ -4,10 +4,19 @@ let formulaire = document.querySelector("#formulaire")
 let buton =document.querySelector('#boutton')
 let coups = 0
 let nombreChoisir;
+
+var monTableau =new Array();
+monTableau.push("bonjour")
+
+console.log(monTableau)
 error.style.display='none'
 
+ //Generateur de nombre aleatoire
+
 let nomnreAleatoire = Math.floor(Math.random()*1001)
+
 console.log(nomnreAleatoire)
+
     function verifier(nombre)
     {
         let intruction = document.createElement('div')
@@ -34,36 +43,37 @@ console.log(nomnreAleatoire)
         }
        document.querySelector("#instructions").prepend(intruction)
     }
+///  Verification de la valeur entrer dans le champ
+        input.addEventListener('keyup', () =>
+        {
+            if(isNaN((input.value)))
+            {
+                error.style.display="block"
+            }else
+            {
+                error.style.display="none"
+            }
 
-input.addEventListener('keyup', () =>
-{
-    if(isNaN((input.value)))
+        })
+
+// Soumettre et verification
+    formulaire.addEventListener("submit", (e) =>
     {
-        error.style.display="block"
-    }else
-    {
-        error.style.display="none"
-    }
+        e.preventDefault()
+        if(isNaN(input.value) || input.value == '')
+        {
+            input.style.borderColor ="red"
+        }else
+        {
+            coups++
+            input.style.borderColor ="silver"
+            nombreChoisir = input.value;
+            input.value =''
+            verifier(nombreChoisir)
+        }
+    })
 
-})
-
-
-formulaire.addEventListener("submit", (e) =>
-{
-    e.preventDefault()
-    if(isNaN(input.value) || input.value == '')
-    {
-        input.style.borderColor ="red"
-    }else
-    {
-        coups++
-        input.style.borderColor ="silver"
-        nombreChoisir = input.value;
-        input.value =''
-        verifier(nombreChoisir)
-    }
-})
-
+    
 
 
 
