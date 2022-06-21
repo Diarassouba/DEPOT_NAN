@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav
+{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: dimgray;
+}
+nav a
+{
+    text-decoration: none;
+}
+nav li
+{
+    list-style-type: none;
+}
+nav ul
+{
+    float: right;
+    /* padding: 0; */
+}
+nav ul li
+{
+    float: left;
+    margin: 10px;
+
+}
+nav ul li a
+{
+    color: white;
+    padding: 15px 20px;
+
+}
+div
+{
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(5deg, rgb(69, 233, 231), rgb(88, 187, 233));;
+}
+#connect
+{
+    width: 60%;
+    height: 60vh;
+    background-size:100%;
+    background-image: url(pexels-mads-thomsen-2739013.jpg);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px black;
+    
+}
+ 
+
+#connect form
+{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    line-height: 2.5;
+    
+    background-image: linear-gradient(5deg, rgb(69, 233, 231), rgb(88, 187, 233));;
+}
+#connect form input
+{
+    width: 250px;
+    height: 40px;
+    border: 2px solid white;
+} 
+#connect button
+{
+    width: 250px;
+    height: 40px;
+    border: 2px solid aqua;
+    background-color: aqua;
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body    
+{
+    background-image: linear-gradient(to right , rgb(57, 44, 58) , rgb(65, 35, 44));
+    
+}
+
+nav
+{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: dimgray;
+}
+nav a
+{
+    text-decoration: none;
+}
+nav li
+{
+    list-style-type: none;
+}
+nav ul
+{
+    float: right;
+    /* padding: 0; */
+}
+nav ul li
+{
+    float: left;
+    margin: 10px;
+
+}
+nav ul li a
+{
+    color: white;
+    padding: 15px 20px;
+
+}
+#inscript
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(145deg, rgb(69, 233, 231), rgb(88, 187, 233));
+}
+#inscript article
+{
+    width: 60%;
+    height: 650px;
+    background-image:url(pexels-darwis-alwan-1995730.jpg);
+    background-size: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 20px black;
+    border-top:1px solid rgb(69, 233, 231);
+    border-left:1px solid rgb(69, 233, 231);
+}
+#inscript form 
+{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: linear-gradient(5deg, rgb(69, 233, 231), rgb(88, 187, 233));;;
+    text-align: center;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+
+}
+#inscript form h1
+{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    
+}
+#inscript form input
+{
+    width: 80%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+#inscript form button
+{
+    background-color: rgb(8, 247, 243);
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    width: 80%;
+    height: 45px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#inscript form p
+{
+    margin-top: 20px 8px;
+    color: white;
+    font-size: 20px;
+    
+}
+#inscript form p a
+{
+    margin-top: 8px;
+    text-decoration: none;
+    color: orange;
+    margin: 0 20px;
+}
