@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Node js</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color:  #d13d60;
+        }
+        article
+        {
+            width: 80%;
+            height: 600px;
+            border: 1px solid black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-image: url("pexels-artem-saranin-1547813.jpeg");
+            color: white;
+            background-size: cover;
+        }
+        form input
+        {
+            width: 100%;
+            height: 40px;border: none;
+            padding-left: 20px;
+           
+        }
+        form h1
+        {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+        }
+        form
+        {
+            width: 50%;
+            height: 100%;
+            float: right;
+            line-height: 2;
+            background-color: #000;
+        }
+        form div
+        {
+            margin: 0px auto;
+            width: 90%;
+            height: auto;
+        }
+        form input[type="submit"]
+        
+        {
+            background-color: lime;
+            cursor: pointer;
+            width: 90%;
+            margin: 15px 20px;
+            border-radius: 10px;
+            border: none;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <article>
+        <form >
+            <h1>Formulaire</h1>
+                <div>   
+                    <label for="Nom">NOM:</label><br>
+                    <input type="text" name="" id="Nom" placeholder="EX: Diara"> <br>    
+                </div>
+                
+                <div>
+                    <label for="Prenom">PRENOM:</label><br>
+                    <input type="text" name="" id="Prenom" placeholder="EX : Madou"><br>
+        
+                </div>
+                <div>
+                    <label for="age">AGE:</label><br>
+                    <input type="text" name="" id="age" placeholder="EX : 18ans"><br>    
+                </div>
+                <div>
+                    <label for="Contact">CONTACT:</label><br>
+                    <input type="tel" name="" id="Contact" placeholder="Ex:12345678"><br>
+        
+                </div>
+    
+                <div>
+                    <label for="email">EMAIL:</label><br>
+                    <input type="email" name="" id="email" placeholder="Ex: mail@exemple.com"><br>
+    
+                </div>
+                <div>
+                    <label for="Prenom">MOT DE PASSE :</label><br>
+                    <input type="password" name="" id="Prenom" placeholder="Ex : &demo#"><br>    
+                </div>
+                <input type="submit" name="" id="" value="Inscription">
+    
+        </form>
+    </article>
+</body>
+</html>
