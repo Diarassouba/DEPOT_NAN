@@ -115,7 +115,7 @@ let indexdepart = 0
 let submit = document.querySelector('#submit');
 let score = document.querySelector('#score')
 let time = 10;
-
+console.log(stocke)
 
 fetch("./jeux.json")
     .then(response=>{
@@ -124,13 +124,14 @@ fetch("./jeux.json")
     })
     .then(responses=>{
         stocke = responses.questions;
+        
         gestdequetion()
     })
         // Fonction Temps ecouler  
         function temps()
             {
 
-                if (indexdepart<9) {
+                if (indexdepart >9) {
                     
                 }else{
 
@@ -170,11 +171,11 @@ fetch("./jeux.json")
                         <label for="propos2"> ${stocke[i].options[1]} </label><br>
                         <input type="checkbox" value=${stocke[i].options[2]}" valid="valid" name="question3" type="${stocke[i].type}" id="propos3">
                         <label for="propos1">${stocke[i].options[2]} </label><br>`
-                    
+ 
                     }
                     indexdepart +=3
                 }else{
-                    bloc1.innerHTML +=` <h2>Resultat</h2>`
+                    bloc1.innerHTML =` <h2>Resultat</h2>`
                     count.innerHTML = 0;
                     clearInterval()
                     console.log("fin")
